@@ -1,0 +1,71 @@
+/* Load Roboto Slab in HTML <head>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;700&display=swap" rel="stylesheet">
+*/
+
+/* ----- Base page styling ----- */
+
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  padding-top: 5rem;
+
+  font-family: "Roboto Slab", serif;
+  font-weight: 300;
+
+  background-color: #f6f1e8;     /* soft cream */
+  color: #212529;                /* soft near-black */
+
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+}
+
+/* ----- Layout width (Bootstrap-ish container) ----- */
+
+.container {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* ----- Headings ----- */
+
+h1, h2, h3 {
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/* ----- Paragraphs ----- */
+
+p {
+  margin-bottom: 0.8rem;
+}
+
+/* ----- Links ----- */
+
+a {
+  font-weight: 700;
+  color: #212529;
+  text-decoration: none;
+  transition: opacity 0.15s ease-in-out;
+}
+
+a:hover {
+  text-decoration: underline;
+  opacity: 0.85;
+}
+
+/* ----- Optional: justify text like the site does ----- */
+
+.text-justify {
+  text-align: justify;
+}
+
+/* ----- Optional: subtle spacing like print ----- */
+
+main {
+  padding-bottom: 4rem;
+}
